@@ -33,13 +33,19 @@ import { NgConfirmModule } from 'ng-confirm-box';
 import { RegistrationListComponent } from './registration-list/registration-list.component';
 import { CreateRegistrationComponent } from './create-registration/create-registration.component';
 import { UserDetailComponent } from './user-detail/user-detail.component';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     RegistrationListComponent,
     CreateRegistrationComponent,
-    UserDetailComponent
+    UserDetailComponent,
+    LoginComponent,
+    SignupComponent,
   ],
   imports: [
     BrowserModule,

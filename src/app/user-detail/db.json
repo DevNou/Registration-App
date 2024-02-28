@@ -5,7 +5,7 @@
       "lastName": "Chatziantoniou",
       "email": "arsenis@hotmail.com",
       "mobile": 697487962,
-      "weight": 100,
+      "weight": 102,
       "height": 1.7,
       "bmi": 34.602076124567475,
       "bmiResult": "Obese",
@@ -70,6 +70,41 @@
       "haveGymBefore": "Yes",
       "enquiryDate": "2024-02-25T22:00:00.000Z",
       "id": "db2d"
+    }
+  ],
+  "signupUsers": [
+    {},
+    {
+      "id": "4800",
+      "firstName": "Arsenis",
+      "lastName": "Xatzi",
+      "mobile": "6974587474",
+      "email": "arsenisxatzi@hotmail.com",
+      "password": "1234"
+    },
+    {
+      "id": null,
+      "firstName": "Makis",
+      "lastName": "Abraam",
+      "mobile": "698758979",
+      "email": "xatzi@hotmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 1,
+      "firstName": "arsenis",
+      "lastName": "arsenis",
+      "mobile": "41241",
+      "email": "arsenisxtzi@gotmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 1,
+      "firstName": "makis",
+      "lastName": "takis",
+      "mobile": "2344123412",
+      "email": "akis@ghotmailc",
+      "password": "213213"
     }
   ]
 }

@@ -15,3 +15,4 @@ export class User {
   enquiryDate!: string;
   id!: number;
 }
+
