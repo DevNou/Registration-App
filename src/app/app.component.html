@@ -1,9 +1,10 @@
 <mat-toolbar color="primary">
   <h1>GYM Registration App</h1>
   <span class="example-spacer"></span>
-  <button routerLink="/list" mat-raised-button color="accent">View Enquiries</button>
+  <button [disabled]="!isLoggedIn"  routerLink="/list" mat-raised-button color="accent">View Enquiries</button>
+  <button [disabled]="!isLoggedIn" routerLink="/login" class="btn btn-success mx-2">Log Out</button>
 </mat-toolbar>
-
+<!-- *ngif="isLoggedIn"  -->
 
 
 <div style="height:100%" class="container mt-4">
@@ -25,6 +26,5 @@
   </footer>
 </div>
 
-
-<ng-toast></ng-toast>
+<lib-ng-toast></lib-ng-toast>
 <ng-confirm></ng-confirm>

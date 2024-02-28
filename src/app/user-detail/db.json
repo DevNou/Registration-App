@@ -105,6 +105,14 @@
       "mobile": "2344123412",
       "email": "akis@ghotmailc",
       "password": "213213"
+    },
+    {
+      "id": "7f01",
+      "firstName": "Takis",
+      "lastName": "Makis",
+      "mobile": "698758785",
+      "email": "makis@hotmail.com",
+      "password": "1234"
     }
   ]
 }
